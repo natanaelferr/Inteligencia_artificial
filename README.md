@@ -26,3 +26,22 @@ Este projeto é o equivalente ao clássico "Hello World" — mas para visão com
 1. **Instale as dependências**:
    ```bash
    pip install opencv-python mediapipe numpy
+2. **Substitua o vídeo de entrada**:
+   Salve seu vídeo com o nome `1_1Formated.mp4` ou altere o nome no código.
+
+3. **Rode um dos scripts**:
+   - Para o boneco sobre o vídeo:
+     ```bash
+     python pose_to_stickman_overlay.py
+     ```
+
+   - Para o boneco em fundo branco:
+     ```bash
+     python pose_to_stickman_separate.py
+     ```
+
+4. O vídeo gerado será salvo como `output_boneco*.mp4`.
+
+📌 Código aberto para aprendizado. Sinta-se à vontade para clonar, adaptar e compartilhar.
+
+👤 Desenvolvido por [Natanael Ferreira] — me siga no [LinkedIn](https://linkedin.com/in/natanaelferr) para mais projetos como este!
